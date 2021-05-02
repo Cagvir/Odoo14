@@ -16,9 +16,11 @@
 
     # Categories can be used to filter modules in modules listing
     'category': 'Extra',
-    'version': '14.0.2',
+    'version': '14.0.3',
     'license': 'LGPL-3',
-    "images": ["static/description/src/img/icon.png", ],
+
+    # "images": ["static/description/icon.png", ],
+    'images': ['static/description/banner.png'],
     # any module necessary for this one to work correctly
     'depends': ['purchase_stock','sale'],
 
